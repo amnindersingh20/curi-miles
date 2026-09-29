@@ -1,0 +1,145 @@
+/* =========================
+   GLOBAL
+========================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero-section {
+    background: linear-gradient(
+        135deg,
+        #f8f9fa 0%,
+        #e9f2ff 100%
+    );
+}
+
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+.hero-card {
+    background: #ffffff;
+    padding: 50px 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.hero-card i {
+    font-size: 80px;
+    color: #0d6efd;
+}
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+.section-padding {
+    padding: 90px 0;
+}
+
+.section-label {
+    color: #0d6efd;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+
+/* =========================
+   SERVICE CARDS
+========================= */
+
+.service-card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.25s ease,
+                box-shadow 0.25s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 15px 35px rgba(0, 0, 0, 0.10);
+}
+
+.service-icon {
+    width: 70px;
+    height: 70px;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #e7f1ff;
+    color: #0d6efd;
+
+    font-size: 30px;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.form-control {
+    padding: 12px 15px;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+
+    box-shadow:
+        0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 767px) {
+
+    .hero-section {
+        text-align: center;
+    }
+
+    .section-padding {
+        padding: 60px 0;
+    }
+
+    .display-4 {
+        font-size: 2.4rem;
+    }
+
+}
